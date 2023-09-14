@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi Panjang</title>
+    <style>
+        .calculator-container{
+            background-color: whitesmoke;
+            color: black;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            border: 3px solid pink;
+        }
+        button{
+            background-color: bisque;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            color: beige;
+            background-color: black;
+            cursor: wait;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Menghitung Luas Persegi Panjang</h1>
+        <p>Masukkan Panjang</p>
+        <input class="panjang-input-field" type="text">
+        <p>Masukkan Lebar</p>
+        <input class="lebar-input-field" type="text"><br><br>
+        <button onclick="myFunction()" class="calculate">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
